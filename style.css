@@ -1,0 +1,148 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+.header {
+    background: #0073e6;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.header p {
+    font-size: 1.1em;
+}
+
+/* Profile Picture */
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+/* Header Navigation Buttons */
+.header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.header nav ul li {
+    margin: 0 10px;
+}
+
+.header nav ul li a {
+    padding: 10px 20px;
+    background: #fff;
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.header nav ul li a:hover {
+    background: #005bb5;
+    color: #fff;
+}
+
+/* About Section */
+.about {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2em;
+    color: #0073e6;
+}
+
+.about p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+/* Social Media Buttons */
+.footer .social-media {
+    margin-top: 10px;
+}
+
+.social-button {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 15px;
+    background: #0073e6;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.social-button:hover {
+    background: #005bb5;
+}
+
+/* Centered Text for Content Pages */
+.content-page {
+    padding: 40px;
+    text-align: center;
+    color: #555;
+}
+
+.content-page h2 {
+    font-size: 2em;
+    color: #0073e6;
+}
+
+/* .content-page p {
+    font-size: 1.2em;
+} */
+
+
+/* Back to Home Button */
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.back-button:hover {
+    background-color: #005bb5;
+}
